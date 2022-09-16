@@ -1,0 +1,147 @@
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Tiro+Gurmukhi&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        li,
+        a,
+        button {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: black;
+            text-decoration: none;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10%;
+            background-color: #326806;
+        }
+
+        .logo {
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+        .nav-links li {
+            display: inline-block;
+            padding: 0 20px;
+        }
+
+        .nav-links li a {
+            transitions: all 0.3s ease 0s;
+            color: #eaffe3;
+            padding: 5px;
+        }
+
+        .nav-links li a:hover {
+            color: aqua;
+        }
+
+        button {
+            color: darkolivegreen;
+            border: 20px solid #eaffe3;
+            background-color: #eaffe3;
+            border-radius: 5px;
+        }
+
+        .site-body {
+            background-color: #eaffe3;
+        }
+
+        .welcome {
+            color: #CEFFBD;
+            height: 100vh;
+            background-image: url(background.JPG);
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            position: relative
+        }
+
+        .welcome * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .welcome h1 {
+            font-size: 60px;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .welcome p {
+            font-size: 30px;
+            margin: 0;
+        }
+
+        #products {
+            width: 300px;
+            height: auto;
+            text-align: center;
+            padding: 15px;
+        }
+
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10%;
+            background-color: #326806;
+            color: #eaffe3;
+        }
+
+        submit {
+            color: darkolivegreen;
+            border: 20px solid #CEFFBD;
+            background-color: #CEFFBD;
+            border-radius: 5px;
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            align-items: center;
+        }
+
+        .socials a {
+            color: #CEFFBD;
+            font-size: 30px;
+            margin: 0 10px;
+
+        }
+
+        a:hover {
+            color: aqua;
+        }
