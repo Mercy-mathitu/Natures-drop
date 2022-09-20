@@ -61,9 +61,9 @@
         }
 
         .welcome {
-            color: #CEFFBD;
-            height: 100;
-            width: 100;
+            color: #0a1705;
+            font-weight: 400px;
+            height: 100vh;
             background-image: url("https://github.com/Mercy-mathitu/Natures-drop/blob/main/docs/assets/images/background.JPG?raw=true");
             background-size: cover;
             background-position: center center;
@@ -71,7 +71,7 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            position: relative
+            position: relative;
         }
 
         .welcome * {
