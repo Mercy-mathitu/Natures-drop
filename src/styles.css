@@ -62,8 +62,9 @@
 
         .welcome {
             color: #CEFFBD;
-            height: 100vh;
-            background-image: url(https://github.com/Mercy-mathitu/Natures-drop/blob/main/docs/assets/images/avocado.JPG?raw=true);
+            height: 100;
+            width: 100;
+            background-image: url("https://github.com/Mercy-mathitu/Natures-drop/blob/main/docs/assets/images/background.JPG?raw=true");
             background-size: cover;
             background-position: center center;
             display: flex;
