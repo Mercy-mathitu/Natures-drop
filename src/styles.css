@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Tiro+Gurmukhi&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&display=swap');
 
         * {
             box-sizing: border-box;
@@ -6,11 +6,13 @@
             padding: 0;
         }
 
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
 
         li,
         a,
         button {
-            font-family: "Montserrat", sans-serif;
             font-weight: 500;
             font-size: 16px;
             color: black;
@@ -62,6 +64,7 @@
 
         .welcome {
             color: #0a1705;
+            font-family: 'Fraunces', serif;
             font-weight: 400px;
             height: 100vh;
             background-image: url("https://github.com/Mercy-mathitu/Natures-drop/blob/main/docs/assets/images/background.JPG?raw=true");
@@ -91,10 +94,7 @@
         }
 
         #products {
-            width: 300px;
-            height: auto;
             text-align: center;
-            padding: 15px;
         }
 
 
