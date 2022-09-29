@@ -5,40 +5,27 @@
             margin: 0;
             padding: 0;
         }
+        :root {
+            --primary-color: #019934;
+            --secondary-color: #bcf3ce;
+        }
 
         body {
             font-family: "Montserrat", sans-serif;
         }
 
-        li,
-        a,
-        button {
-            font-weight: 500;
-            font-size: 16px;
-            color: black;
-            text-decoration: none;
+        .bg-custom {
+            background-color: var(--primary-color);
         }
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 10%;
-            background-color: #326806;
-        }
-
-        .logo {
-            border-radius: 50%;
-            cursor: pointer;
-        }
-
-        .nav-links {
-            list-style: none;
-        }
-
-        .nav-links li {
-            display: inline-block;
-            padding: 0 20px;
+        .navbar-btn {
+            background-color: var(--secondary-color) !important;  
+            color: var(--primary-color) !important;
+                border-color: var(--secondary-color) !important;
+                border-radius: 5px;
+                text-decoration: none;
+                padding: 12px 15px !important;
+                font-weight: 700;
         }
 
         .nav-links li a {
@@ -51,15 +38,9 @@
             color: aqua;
         }
 
-        button {
-            color: darkolivegreen;
-            border: 20px solid #eaffe3;
-            background-color: #eaffe3;
-            border-radius: 5px;
-        }
 
         .site-body {
-            background-color: #eaffe3;
+            background-color: var(--secondary-color);
         }
 
         .welcome {
