@@ -149,3 +149,116 @@
         a:hover {
             color: aqua;
         }
+               
+        
+                
+        
+                .grid {
+                    max-width: 700px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    background-color: var(--secondary-color);
+                    
+                    overflow: hidden;
+                }
+        
+                .img img {
+                    max-width: 100%;
+                    display: inherit;
+                }
+        
+                .card-content {
+                    padding: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+        
+                h1.category {
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    color: #343e37;
+                }
+        
+                h2.name {
+                    font-family: 'Frank Ruhl Libre',
+                        serif;
+                    font-size: 34px;
+                    line-height: 1em;
+                    color: #000000;
+                }
+                                p.description {
+                                    color: #343e37;
+                                    line-height: 1.6em;
+                                }
+                        @media only screen and(max-width: 628px) {
+                            .grid {
+                                grid-template-columns: 1fr;
+                            }
+            
+                            .img img {
+                                max-height: 450px;
+                                width: 100%;
+                                object-fit: cover;
+                            }
+            
+                            .card-content {
+                                display: block;
+                            }
+            
+                            h1.category,
+                            h2.name,
+                            p.description,
+                            .price {
+                                padding-bottom: 23px;
+                            }
+                        }
+            
+                        @media only screen and (max-width: 375px) {
+                            .container {
+                                margin: 15px auto;
+                                padding: 0 15px;
+                            }
+            
+                            .img img {
+                                max-height: 290px;
+                            }
+            
+                            .card-content {
+            
+                                padding: 24px;
+                            }
+            
+                            h1.category,
+                            h2.name,
+                            p.description,
+                            .price {
+                                padding-bottom: 23px;
+                            }
+            
+                            h2.name {
+                                font-size: 28px;
+                            }
+            
+                            p.description {
+                                font-size: 12px;
+                            }
+            
+                            p.current-price {
+                                font-size: 23px;
+                            }
+            
+                            button.cta {
+                                padding: 12px 0;
+                                font-size: 13px;
+                            }
+                        }
+            
+                        .attribution {
+                            font-size: 11px;
+                            text-align: center;
+                        }
+            
+                        .attribution a {
+                            color: var(--primary-color);
+                        }
