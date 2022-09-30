@@ -100,10 +100,10 @@
                 button.cta {
                     background-color: var(--primary-color);
                     border: none;
-                    padding: 12px;
+                    padding: 20px;
                     border-radius: 12px;
                     color: var(--secondary-color);
-                    font-size: 14px;
+                    font-size: 18px;
                     font-weight: 700;
                     cursor: pointer;
                     transition: background-color .3s ease;
@@ -192,8 +192,8 @@
                 }
         
                 h1.category {
+            font-family: 'Fraunces', serif;
                     text-transform: uppercase;
-                    letter-spacing: 3px;
                     color: #343e37;
                 }
         
