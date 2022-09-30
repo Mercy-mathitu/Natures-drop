@@ -75,9 +75,31 @@
         }
 
         .products {
-            margin-left: 2px;
+            margin-bottom: 10px;
             text-align: center;
         }
+
+        
+
+                button.cta {
+                    background-color: var(--primary-color);
+                    border: none;
+                    padding: 12px;
+                    border-radius: 12px;
+                    color: var(--secondary-color);
+                    font-size: 14px;
+                    font-weight: 700;
+                    cursor: pointer;
+                    transition: background-color .3s ease;
+                }
+
+                button.cta:hover {
+                    background-color: var(--primary-color);
+                }
+        
+                button.cta img {
+                    padding-right: 7px;
+                }
 
 
         .column {
@@ -97,8 +119,8 @@
             justify-content: space-between;
             align-items: center;
             padding: 10px 10%;
-            background-color: #326806;
-            color: #eaffe3;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
         }
 
         submit {
@@ -118,7 +140,7 @@
         }
 
         .socials a {
-            color: #CEFFBD;
+            color: var(--secondary-color);
             font-size: 30px;
             margin: 0 10px;
 
