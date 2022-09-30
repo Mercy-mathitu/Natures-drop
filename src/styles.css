@@ -7,11 +7,16 @@
         }
         :root {
             --primary-color: #019934;
-            --secondary-color: #bcf3ce;
+            /*--secondary-color: #bcf3ce;*/
+            --secondary-color: #d8f0e0;
         }
 
         body {
             font-family: "Montserrat", sans-serif;
+        }
+
+        .body-bg {
+            background-color: var(--secondary-color);
         }
 
         .bg-custom {
@@ -72,6 +77,16 @@
         .welcome p {
             font-size: 30px;
             margin: 0;
+        }
+
+        section.grid {
+            max-width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                background-color: var(--secondary-color);
+                margin-bottom: 10px;
+                border-radius: 15px;
+                overflow: hidden;
         }
 
         .products {
