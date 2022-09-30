@@ -13,9 +13,10 @@
 
         body {
             font-family: "Montserrat", sans-serif;
+            background-color: white;
         }
 
-        .body-bg {
+        .container-bg {
             background-color: var(--secondary-color);
         }
 
