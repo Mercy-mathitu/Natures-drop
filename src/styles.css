@@ -43,19 +43,19 @@
             background-color: var(--secondary-color);
         }
 
-        .welcome {
-            color: #0a1705;
+        .welcome-text {
+            color: #000000;
             font-family: 'Fraunces', serif;
-            font-weight: 400px;
-            height: 100vh;
-            background-image: url("https://github.com/Mercy-mathitu/Natures-drop/blob/main/docs/assets/images/background.JPG?raw=true");
-            background-size: cover;
-            background-position: center center;
             display: flex;
-            align-items: center;
             justify-content: center;
             flex-direction: column;
             position: relative;
+            text-align: center;
+        }
+        .bg-image {
+            background-size: cover;
+                
+                display: flex;
         }
 
         .welcome * {
@@ -63,7 +63,7 @@
             z-index: 1;
         }
 
-        .welcome h1 {
+        .welcome-text h1 {
             font-size: 60px;
             margin-top: 0;
             margin-bottom: 5px;
@@ -74,7 +74,8 @@
             margin: 0;
         }
 
-        #products {
+        .products {
+            margin-left: 2px;
             text-align: center;
         }
 
