@@ -309,6 +309,11 @@ nav li.active a {
                                 padding: 12px 0;
                                 font-size: 13px;
                             }
+                                        .newsletter input {
+                                            height: 3.125rem;
+                                            padding: 0 75px;
+                            
+                                        }
             
                         .attribution {
                             font-size: 11px;
