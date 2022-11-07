@@ -28,17 +28,20 @@
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-white " href="#about">About</a>
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white " href="products.html">Products</a>
+                            <a class="nav-link" href="#about" title="About Nature's Drop">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white " href="#">Reviews</a>
+                            <a class="nav-link" href="products.html" title="Nature's Drop Products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white " href="#">FAQs</a>
-                        </li> 
+                            <a class="nav-link" href="#" title="Nature's Drop Reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" title="Nature's Drop blog">Blog</a>
+                        </li>
                         </ul>
                         
                             <a href="#" class="btn btn-primary navbar-btn">
@@ -119,18 +122,19 @@
     
             </section>
     
-            <section id="reviews"></section>
+            <section class="newsletter mt-5 mb-5 p-5">
+                <div class="newstext">
+                    <h4>Sign Up for Newsletters</h4>
+                    <p>Add email for updates on new products and special offers.</p>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Email...">
+                    <button class="btn normal">Sign Up</button>
+                </div>
+            </section>
     
-            <section id="contact"></section>
     
-    </body>
-    <footer>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <p>Add email for updates on new products and offers</p>
-            <br />
-            <input id="email" type="email" name="email" placeholder="Email..." class="email" required></input>
-            <br />
-            <button type="submit">Submit</button>
+    <footer>    
         </form>
         <section id="social_media">
             <h2>Find us on:</h2>
@@ -142,4 +146,5 @@
         </section>
     </footer>
     </div>
+    </body>
     </html>
